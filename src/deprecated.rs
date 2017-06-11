@@ -9,6 +9,9 @@
 
 //! This module holds deprecated assets only.
 
+use std::cmp::{max, min};
+use std::ops::Range;
+
 use super::*;
 
 /// Find the level runs within a line and return them in visual order.
